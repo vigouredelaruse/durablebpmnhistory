@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "DurableBPMNHistoryFX": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 32345,
+      "useSSL": false
+    }
+  }
+}
