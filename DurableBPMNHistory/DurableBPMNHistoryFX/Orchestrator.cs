@@ -64,21 +64,21 @@ namespace DurableBPMNHistoryFX
         public string HelloTokyo([ActivityTrigger] string name, ILogger log)
         {
             log.LogInformation($"Saying hello to {name}.");
-            return $"Hello {name}!";
+            return $"said hello {name}!";
         }
 
         [FunctionName(nameof(Orchestrator.HelloLondon))]
         public string HelloLondon([ActivityTrigger] string name, ILogger log)
         {
             log.LogInformation($"Saying hello to {name}.");
-            return $"Hello {name}!";
+            return $"said hello {name}!";
         }
 
         [FunctionName(nameof(Orchestrator.HelloSeattle))]
         public string HelloSeattle([ActivityTrigger] string name, ILogger log)
         {
             log.LogInformation($"Saying hello to {name}.");
-            return $"Hello {name}!";
+            return $"said hello {name}!";
         }
 
         [FunctionName("Start")]
